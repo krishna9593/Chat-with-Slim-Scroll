@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body{
+	font-size:14px;
+	font-family: 'Open Sans', sans-serif;
+	background:#f1f1f1;
+}
+.chat-container{
+	max-width:600px;
+	margin:0px auto;
+	background:#fff;
+	padding:20px;
+}
+.slimscroll{
+	padding: 10px;
+}
+.slchats li .avatar{
+	width: 51px;
+    border-radius: 50%;
+}
+.slchats {
+    margin: -15px 0 0;
+    padding: 0;
+}
+.slchats li .message{
+	min-height: 46px;
+    padding: 5px;
+}
+.slchats li {
+    list-style: none;
+    padding: 5px 0;
+    margin: 10px auto;
+    font-size: 12px;
+}
+.slchats li.out .avatar {
+    float: right;
+    margin-left: 10px;
+	border-left: 3px solid #F3565D;
+	padding: 2px;
+}
+.slchats li.out .message {
+    margin-right: 34px;
+    padding-right: 31px;
+    background: #fafafa;
+    text-align: right;
+}
+.slchats li.in .message .arrow, .slchats li.out .message .arrow {
+    display: block;
+    position: absolute;
+    top: 5px;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+}
+.slchats li.out .message .arrow {
+    right: -8px;
+    border-left: 8px solid #F3565D;
+}
+.slchats li.out .datetime, .slchats li.out .name {
+    text-align: right;
+}
+.slchats li .name {
+    color: #3590c1;
+    font-size: 13px;
+    font-weight: 400;
+}
+.slchats li .datetime {
+    color: #333;
+    font-size: 13px;
+    font-weight: 400;
+}
+.slchats li.out .datetime, .slchats li.out .name {
+    text-align: right;
+}
+.slchats li .body {
+    display: block;
+}
+.head{
+	text-align:center;
+}
+.slchats li.in .avatar {
+    float: left;
+    margin-right: 10px;
+	border-right: 3px solid #1BBC9B;
+	padding: 2px;
+}
+.slchats li.in .message {
+	margin-left: 34px;
+    padding-left: 31px;
+    background: #fafafa;
+    text-align: left;
+}
+.slchats li.in .message .arrow {
+    left: -8px;
+    width: 0;
+    height: 0;
+    border-right: 8px solid #1BBC9B;
+}
+.chat-form {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #e9eff3;
+    overflow: hidden;
+    clear: both;
+}
+.chat-form .input-cont {
+    margin-right: 40px;
+}
+.chat-form .input-cont .form-control {
+    border: 1px solid #ddd;
+    width: 100%!important;
+    margin-top: 0;
+    background-color: #fff!important;
+	height: 34px;
+    padding: 2px 12px;
+	outline: 0!important;
+}
+.chat-form .btn-cont {
+    margin-top: -41px;
+    position: relative;
+    float: right;
+    width: 44px;
+}
+.send-btn{
+	background: #f3565c;
+    height: 42px;
+    padding: 2px 8px;
+    color: #fff;
+    border: 0;
+}
